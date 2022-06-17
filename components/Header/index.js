@@ -6,6 +6,8 @@ import { Select } from "antd";
 const { Option, OptGroup } = Select;
 
 // ----------Энд header хэсэг хийгдэж байна------------
+
+// --menu хэсгийг хувьсагчинд утга оноож өгсөн--
 const logo = "Nomin-Edu";
 const help = "Тусламж";
 const login = "Нэвтрэх";
