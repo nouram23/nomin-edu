@@ -32,12 +32,23 @@ export default function Header() {
             }}
             onChange={handleChange}
           >
-            <OptGroup label="Manager">
-              <Option value="jack">Jack</Option>
-              <Option value="lucy">Lucy</Option>
+            <OptGroup label="Англи хэл">
+              <Option value="1">Анхан шат</Option>
+              <Option value="2">Дунд шат</Option>
+              <Option value="3">Ахисан шат</Option>
+              <Option value="4">Гүнзгий шат</Option>
+              <Option value="5"> IELTS</Option>
+              <Option value="6"> TOEFL</Option>
             </OptGroup>
-            <OptGroup label="Engineer">
-              <Option value="Yiminghe">yiminghe</Option>
+            <OptGroup label="Орос хэл">
+              <Option value=" 7">Анхан шат</Option>
+              <Option value="8">Дунд шат</Option>
+              <Option value="9">Ахисан дунд шат</Option>
+            </OptGroup>
+            <OptGroup label="Солонгос хэл">
+              <Option value=" 10">Анхан шат</Option>
+              <Option value="11">Дунд шат</Option>
+              <Option value="12">Ахисан дунд шат</Option>
             </OptGroup>
           </Select>
         </form>
