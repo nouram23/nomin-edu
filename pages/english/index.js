@@ -1,6 +1,7 @@
 import { Card } from "antd";
 import Layout from "../../components/layout";
 import { TeamOutlined } from "@ant-design/icons";
+import Cover from "../../components/cover";
 
 export default function English() {
   const information = [
@@ -26,17 +27,12 @@ export default function English() {
 
   return (
     <Layout className="flex justify-center items-center ">
-      <div className=" relative overflow-hidden">
-        <div className="h-[500px] bg-[#FFAB6D]/30  w-11/12">
-          <p className="text-3xl font-medium absolute bottom-20 left-52">
-            Англи хэл
-          </p>
-        </div>
-        <img
-          className="h-[600px] -right-14   -top-12 absolute "
-          src="/assets/img/el.png"
-        />
-      </div>
+      <Cover
+        title="Англи хэл"
+        img="/assets/img/el.png"
+        color="#FFAB6D"
+        opacity="0.7"
+      />
       {information.map((e, i) => (
         <Card key={i} className="mx-auto w-1/2 my-5 rounded-2xl border-2">
           <div className="flex justify-between h-24">

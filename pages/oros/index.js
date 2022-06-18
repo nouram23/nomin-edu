@@ -1,6 +1,7 @@
 import { Card } from "antd";
 import Layout from "../../components/layout";
 import { TeamOutlined } from "@ant-design/icons";
+import Cover from "../../components/cover";
 
 export default function Oros() {
   const information = [
@@ -26,17 +27,12 @@ export default function Oros() {
 
   return (
     <Layout className="flex justify-center items-center ">
-      <div className=" relative overflow-hidden">
-        <div className="h-[500px] bg-[#25FC43]/30  w-11/12">
-          <p className="text-3xl font-medium absolute bottom-20 left-52">
-            Орос хэл
-          </p>
-        </div>
-        <img
-          className="h-[600px] -right-14   -top-12 absolute "
-          src="/assets/img/or.png"
-        />
-      </div>
+      <Cover
+        title="Орос хэл"
+        img="/assets/img/or.png"
+        color="#25FC43"
+        opacity="0.5"
+      />
       {information.map((e, i) => (
         <Card key={i} className="mx-auto w-1/2 my-5 rounded-2xl border-2">
           <div className="flex justify-between h-24">

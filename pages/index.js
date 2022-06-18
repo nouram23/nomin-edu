@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <Layout>
-      {/* Нүүр хэсэг англи хэлний ангируу шилжих */}
+      {/* Нүүр хэсэг хэлний ангируу сонгон шилжих */}
       <div className="flex justify-around mt-28">
         {NuurCardData.map((e, i) => (
           <div className="flex">
