@@ -1,3 +1,4 @@
+// Энэ функц нь менежирт харагдах рюутнуудийн мэмдээллийн пүнгийн функц
 export default function Dun(props) {
   return (
     <div className="mx-44 my-28">

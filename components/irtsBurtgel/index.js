@@ -1,3 +1,4 @@
+// Энэ функц нь менежирт харагдах ирц бүртгэлийн функц
 export default function IrtsBurtgel(props) {
 
 
